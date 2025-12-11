@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "7bUBUWoLYx7xUUkfr",
+      });
+   })();
+</script>
+</head>
+<body>
+    
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <i class="fa-solid fa-list" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <!-- home section design -->
+     <section class="home" id="home">
+    <div class="home-content">
+
+        <h1 data-aos="fade-left" data-aos-duration="1000" data-aos-delay="800">
+            Hey I'm <span>Umadi</span>
+        </h1>
+
+        <div class="typewriter" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="900">
+            <h2>I'm a <span></span></h2>
+        </div>
+
+        <div class="social-media">
+            <a href="https://www.facebook.com/share/1Pa1NxawDS/?mibextid=wwXIfr"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://wa.me/94719202241"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://github.com/UmadiAlanka"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/umadi-alanka-m-8b3b3a304?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+
+        <a href="#about" class="btn">Read More</a>
+    </div>
+
+    <div class="home-img">
+        <img src="images/profile.png" alt="">
+    </div>
+</section>
+
+
+     <!-- about section design -->
+      <section class="about" id="about">
+
+      <div class="about-img">
+        <img src="images/profile.png" alt="">
+      </div>
+
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Hey There! I am Umadi Alanka</h3>
+        <p>I'm a 23-year-old creative enthusiast passionate about UI/UX design, 
+          web development, and front-end technologies. I love turning ideas into beautiful,
+          user-friendly digital experiences. Whether it's designing intuitive interfaces or 
+          coding responsive websites, I'm always eager to learn and build impactful projects.</p>
+        <a href="images/Umadi Alanka Munasinghe.pdf" class="btn">Download CV</a>
+      </div>
+    </section>
+
+    <!-- service section design -->
+     <section class="services" id="services">
+        <div class="title">
+            <h2 class="heading" data-aos="fade-up" data-aos-duration="1000">My <span>Services</span></h2>
+            <p class="serviceP"    data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                As an enthusiastic undergraduate, I’ve been building a strong foundation in web development, 
+                UI/UX design, and front-end technologies. While I may not have professional experience yet, 
+                I’ve applied my skills in personal projects, academic work, and continuous self-learning. 
+                I’m passionate about creating clean, user-friendly interfaces and always eager to grow through 
+                real-world opportunities and collaboration.</p>
+        </div>
+        <div class="content">
+      <!-- FRONTEND CARD -->
+      <div class="card" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400">
+        <div class="service-icon"><i class="fas fa-laptop-code"></i></div>
+        <div class="info">
+          <h3>Frontend</h3>
+          <div class="skills-container">
+            <div class="skill-card">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="React">
+              <p>React</p>
+            </div>
+            <div class="skill-card">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/8/8e/Nextjs-logo.svg" alt="Next.js">
+              <p>Next.js</p>
+            </div>
+            <div class="skill-card">
+              <img src="https://www.w3.org/html/logo/badge/html5-badge-h-solo.png" alt="HTML">
+              <p>HTML</p>
+            </div>
+            <div class="skill-card">
+              <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="CSS">
+              <p>CSS</p>
+            </div>
+            <div class="skill-card">
+              <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript">
+              <p>JavaScript</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- BACKEND CARD -->
+      <div class="card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+        <div class="service-icon"><i class="fas fa-server"></i></div>
+        <div class="info">
+          <h3>Backend</h3>
+          <div class="skills-container">
+            <div class="skill-card">
+              <img src="	https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java">
+              <p>Java</p>
+            </div>
+            <div class="skill-card">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Microsoft_.NET_logo.svg/1200px-Microsoft_.NET_logo.svg.png" alt=".Net">
+              <p>.Net</p>
+            </div>
+            <div class="skill-card">
+              <img src="	https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python">
+              <p>Python</p>
+            </div>
+            <div class="skill-card">
+              <img src="https://www.php.net/images/logos/php-logo-white.svg" alt="PHP">
+              <p>php</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- DATABASE CARD -->
+      <div class="card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+        <div class="service-icon"><i class="fas fa-database"></i></div>
+        <div class="info">
+          <h3>Database</h3>
+          <div class="skills-container">
+            <div class="skill-card">
+              <img src="https://upload.wikimedia.org/wikipedia/en/d/dd/MySQL_logo.svg" alt="my sql">
+              <p>MySql</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- OTHERS CARD -->
+      <div class="card" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400">
+        <div class="service-icon"><i class="fas fa-tools"></i></div>
+        <div class="info">
+          <h3>Others</h3>
+          <div class="skills-container">
+            <div class="skill-card">
+              <img src="	https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="git">
+              <p>Git</p>
+            </div>
+            <div class="skill-card">
+              <img src="	https://img.icons8.com/ios-filled/50/ffffff/github.png" alt="git hub">
+              <p>Git Hub</p>
+            </div>
+            <div class="skill-card">
+              <img src="	https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="Vs code">
+              <p>VS code</p>
+            </div>
+            <div class="skill-card">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" alt="Post man">
+              <p>Post man</p>
+            </div>
+            <div class="skill-card">
+              <img src="	https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="figma">
+              <p>Figma</p>
+            </div>
+            <div class="skill-card">
+              <img src="https://static.canva.com/web/images/8439b51bb7a19f6e65ce1064bc37c197.svg" alt="JavaScript">
+              <p>Canva</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- Portfolio section design -->
+ <section class="portfolio" id="portfolio">
+    <h2 class="heading">Latest <span>project</span></h2>
+    <div class="portfolio-container">
+        <div class="portfolio-box">
+            <img src="images/sunsetlogo.jpg" alt="">
+            <div class="portfolio-layer">
+                <h4>Web Base System</h4>
+                <p><b>we create the Villa management sytem for Sun Set Escape Villa using PHP,JS,HTML,CSS And create UI in figma</b></p>
+                <a href="https://github.com/UmadiAlanka/Sunset_Escape_Villa_Management_System.git"><i class="fa-brands fa-github"></i></a>
+            </div>  
+        </div>
+        <div class="portfolio-box">
+            <img src="images/mycomart_logo.png" alt="">
+            <div class="portfolio-layer">
+                <h4>Role Base System</h4>
+                <p><b>Create MycoMart system using Next.Js,Java,React.And create user friendly UI in Figma</b></p>
+                <a href="https://github.com/UmadiAlanka/Mycomart_frontend.git"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.figma.com/proto/PNLDa55e3gmYMARhcA2Q36/MICORMART?node-id=101-256&starting-point-node-id=5%3A2&t=6zjbt6WABKmiBmZV-1"><i class="fa-brands fa-square-figma"></i></a>
+            </div>
+        </div>
+        <div class="portfolio-box">
+            <img src="images/cafe.png" alt="">
+            <div class="portfolio-layer">
+                <h4>UI Design</h4>
+                <p><b>Designed a responsive café landing page using Figma, focusing on visual balance, usability, and brand feel.</b></p>
+                <a href="https://www.figma.com/design/aqc4mChD22MtQcu3GqOqdh/Cozy-Cup-Cafe?t=5ttCzPaRdj4yeDAr-1"><i class="fa-brands fa-square-figma"></i></a>
+            </div>
+        </div>
+        <div class="portfolio-box">
+            <img src="images/TailMate.JPG" alt="">
+            <div class="portfolio-layer">
+                <h4>UI Design</h4>
+                <p><b>Designed a responsive Pet adaptation user-friendly app using Figma</b></p>
+                <a href="https://www.figma.com/proto/dc5UnWrleSJ1Djft2HeMU2/Pet-Adoption?node-id=2-2&starting-point-node-id=2%3A2&t=6DgpKBFWrFHIKOov-1"><i class="fa-brands fa-square-figma"></i></a>
+            </div>
+        </div>
+    </div>
+ </section>
+ <!-- skills section design -->
+<section class="skills" id="skills">
+  <h2 class="heading">My <span>Skills</span></h2>
+
+  <div class="skills-row">
+
+    <!-- Left side -->
+    <div class="skills-column">
+      <h3 class="title">Coding Skills</h3>
+
+      <div class="skills-box">
+        <div class="skills-content">
+
+          <div class="progress">
+            <h3>HTML <span>90%</span></h3>
+            <div class="bar"><span style="width:90%"></span></div>
+          </div>
+
+          <div class="progress">
+            <h3>CSS <span>90%</span></h3>
+            <div class="bar"><span style="width:90%"></span></div>
+          </div>
+
+          <div class="progress">
+            <h3>C++ <span>50%</span></h3>
+            <div class="bar"><span style="width:50%"></span></div>
+          </div>
+
+          <div class="progress">
+            <h3>Java <span>80%</span></h3>
+            <div class="bar"><span style="width:80%"></span></div>
+          </div>
+
+          <div class="progress">
+            <h3>JavaScript <span>70%</span></h3>
+            <div class="bar"><span style="width:70%"></span></div>
+          </div>
+
+          <div class="progress">
+            <h3>Python <span>90%</span></h3>
+            <div class="bar"><span style="width:90%"></span></div>
+          </div>
+
+          <div class="progress">
+            <h3>PHP <span>70%</span></h3>
+            <div class="bar"><span style="width:70%"></span></div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Right side -->
+    <div class="skills-column">
+      <h3 class="title">Professional Skills</h3>
+
+      <div class="skills-box">
+        <div class="skills-content">
+
+          <div class="progress">
+            <h3>Web Design <span>90%</span></h3>
+            <div class="bar"><span style="width:90%"></span></div>
+          </div>
+
+          <div class="progress">
+            <h3>Web Development <span>90%</span></h3>
+            <div class="bar"><span style="width:90%"></span></div>
+          </div>
+
+          <div class="progress">
+            <h3>UI/UX Design <span>90%</span></h3>
+            <div class="bar"><span style="width:90%"></span></div>
+          </div>
+
+          <div class="progress">
+            <h3>Wireframing and prototyping<span>80%</span></h3>
+            <div class="bar"><span style="width:90%"></span></div>
+          </div>
+
+          <div class="progress">
+            <h3>Testing and debugging<span>70%</span></h3>
+            <div class="bar"><span style="width:70%"></span></div>
+          </div>
+
+          <div class="progress">
+            <h3>Basic usability principles<span>60%</span></h3>
+            <div class="bar"><span style="width:60%"></span></div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+<!-- contact section design -->
+ <section class="contact" id="contact">
+  <h2 class="heading">Contact <span>Me!</span></h2>
+<form onsubmit="sendMail(event); return false;">
+    <div class="input-box">
+      <div class="input-field">
+        <input type="text" placeholder="Full Name" id="name" required>
+      </div>
+
+      <div class="input-field">
+        <input type="email" placeholder="Email Address" id="email" required>
+      </div>
+
+      <div class="input-field">
+        <input type="text" placeholder="Mobile Number" id="number" required>
+      </div>
+
+      <div class="input-field">
+        <input type="text" placeholder="Email Subject" id="subject" required>
+      </div>
+    </div>
+
+    <div class="textarea-field">
+        <textarea id="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+    </div>
+
+    <div class="btn-box btns">
+        <button type="submit" class="btn">Submit</button>
+    </div>
+</form>
+
+
+</section>
+<!-- footer design -->
+ <div class="footer">
+  <div class="footer-text">
+    <p>Copyright &copy; 2025 by Umadi Alanaka | All  Rights Reserved</p>
+  </div>
+  <div class="footer-iconTop">
+    <a href="#"><i class="fa-solid fa-up-long"></i></a>
+  </div>
+ </div>
+     <script src="script.js"></script>
+</body>
+</html>
