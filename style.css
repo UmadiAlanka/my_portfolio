@@ -14,10 +14,10 @@
 
 /* THEME COLORS */
 :root {
-    --bg-color: #1f242d;
-    --second-bg-color: #323946;
-    --text-color: #fff;
-    --main-color: #0ef;
+    --bg-color: #FAFAFC;
+    --second-bg-color: #F3E6EA;
+    --text-color: #000000;
+    --main-color: #C36A8D;
 }
 
 /* GLOBAL */
@@ -271,7 +271,7 @@ span {
 }
 
 .services .content .card:hover{
-    background-color: var(--text-color);
+    background-color: #F2C6D4;
     color: rgb(2, 2, 2);
 }
 
@@ -279,7 +279,7 @@ span {
 .services .content .card:hover .info h3
 {
     transform: translateY(-10px);
-    color:var(--bg-color);
+    color:var(--main-color);
 }
 
 .services .content .card .service-icon{
@@ -344,7 +344,7 @@ span {
 .skill-card:hover {
   transform: translateY(-4px);
   background: var(--bg-color);
-  color: #f7f3f3;
+  color: var(--text-color);
   box-shadow: 0 0 15px var(--main-color);
 }
 /* PORTFOLIO SECTION */
@@ -363,6 +363,7 @@ background-color: var(--second-bg-color);   padding-bottom: 5rem;
     position: relative;
     border-radius: 2rem;
     box-shadow: 0 0 1rem var(--second-bg-color);
+    color: var(--text-color);
     overflow: hidden;
     display: flex;
     cursor: pointer;
