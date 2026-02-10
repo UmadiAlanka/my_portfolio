@@ -2,384 +2,747 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Portfolio</title>
+    <title>Umadi Alanka | UI/UX Designer</title>
+    <meta name="description" content="UI/UX Designer Portfolio - Crafting beautiful and intuitive digital experiences">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-    <script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
-</script>
-<script type="text/javascript">
-   (function(){
-      emailjs.init({
-        publicKey: "7bUBUWoLYx7xUUkfr",
-      });
-   })();
-</script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+       (function(){
+          emailjs.init({
+            publicKey: "7bUBUWoLYx7xUUkfr",
+          });
+       })();
+    </script>
 </head>
 <body>
     
+    <!-- Header -->
     <header class="header">
-        <a href="#" class="logo">Portfolio</a>
-        <i class="fa-solid fa-list" id="menu-icon"></i>
+        <a href="#" class="logo">
+            <span class="logo-initial">U</span>
+            <span class="logo-text">Umadi Alanka</span>
+        </a>
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
 
         <nav class="navbar">
             <a href="#home" class="active">Home</a>
             <a href="#about">About</a>
-            <a href="#services">Services</a>
-            <a href="#portfolio">Projects</a>
+            <a href="#expertise">Expertise</a>
+            <a href="#portfolio">Portfolio</a>
             <a href="#skills">Skills</a>
             <a href="#contact">Contact</a>
         </nav>
     </header>
-    <!-- home section design -->
-     <section class="home" id="home">
-    <div class="home-content">
 
-        <h1 data-aos="fade-left" data-aos-duration="1000" data-aos-delay="800">
-            Hey I'm <span>Umadi</span>
-        </h1>
+    <!-- Home Section -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <div class="greeting">
+                <span class="wave">👋</span>
+                <h3>Hello, I'm</h3>
+            </div>
+            <h1>Umadi Alanka</h1>
+            <div class="role-wrapper">
+                <h2>UI/UX Designer</h2>
+                <div class="role-description">
+                    <span class="divider"></span>
+                    <p>Crafting Digital Experiences</p>
+                </div>
+            </div>
+            <p class="intro-text">
+                I specialize in creating beautiful, user-centered designs that bridge the gap 
+                between aesthetics and functionality. With expertise in Figma, wireframing, 
+                and prototyping, I transform complex problems into intuitive solutions.
+            </p>
 
-        <div class="typewriter" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="900">
-            <h2>I'm a <span></span></h2>
+            <div class="cta-group">
+                <a href="#portfolio" class="btn btn-primary">
+                    <span>View My Work</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+                <a href="images/Umadi Alanka Munasinghe .pdf" class="btn btn-secondary">
+                    <i class="fas fa-download"></i>
+                    <span>Download CV</span>
+                </a>
+            </div>
+
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/umadi-alanka-m-8b3b3a304?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" aria-label="LinkedIn" class="social-link">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/UmadiAlanka" aria-label="GitHub" class="social-link">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://www.facebook.com/share/1Pa1NxawDS/?mibextid=wwXIfr" aria-label="Facebook" class="social-link">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="https://wa.me/94719202241" aria-label="WhatsApp" class="social-link">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+            </div>
         </div>
 
-        <div class="social-media">
-            <a href="https://www.facebook.com/share/1Pa1NxawDS/?mibextid=wwXIfr"><i class="fa-brands fa-facebook-f"></i></a>
-            <a href="https://wa.me/94719202241"><i class="fa-brands fa-whatsapp"></i></a>
-            <a href="https://github.com/UmadiAlanka"><i class="fa-brands fa-github"></i></a>
-            <a href="https://www.linkedin.com/in/umadi-alanka-m-8b3b3a304?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i class="fa-brands fa-linkedin"></i></a>
+        <div class="home-visual">
+            <div class="profile-card">
+                <div class="card-glow"></div>
+                <img src="images/profile.png" alt="Umadi Alanka - UI/UX Designer">
+                <div class="floating-badge badge-1">
+                    <i class="fas fa-palette"></i>
+                    <span>Design</span>
+                </div>
+                <div class="floating-badge badge-2">
+                    <i class="fas fa-code"></i>
+                    <span>Code</span>
+                </div>
+                <div class="floating-badge badge-3">
+                    <i class="fas fa-lightbulb"></i>
+                    <span>Ideas</span>
+                </div>
+            </div>
         </div>
-
-        <a href="#about" class="btn">Read More</a>
-    </div>
-
-    <div class="home-img">
-        <img src="images/profile.png" alt="">
-    </div>
-</section>
-
-
-     <!-- about section design -->
-      <section class="about" id="about">
-
-      <div class="about-img">
-        <img src="images/profile.png" alt="">
-      </div>
-
-      <div class="about-content">
-        <h2 class="heading">About <span>Me</span></h2>
-        <h3>Hey There! I am Umadi Alanka</h3>
-        <p>I'm a 23-year-old creative enthusiast passionate about UI/UX design, 
-          web development, and front-end technologies. I love turning ideas into beautiful,
-          user-friendly digital experiences. Whether it's designing intuitive interfaces or 
-          coding responsive websites, I'm always eager to learn and build impactful projects.</p>
-        <a href="images/Umadi Alanka Munasinghe .pdf" class="btn">Download CV</a>
-      </div>
     </section>
 
-    <!-- service section design -->
-     <section class="services" id="services">
-        <div class="title">
-            <h2 class="heading" data-aos="fade-up" data-aos-duration="1000">My <span>Services</span></h2>
-            <p class="serviceP"    data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
-                As an enthusiastic undergraduate, I’ve been building a strong foundation in web development, 
-                UI/UX design, and front-end technologies. While I may not have professional experience yet, 
-                I’ve applied my skills in personal projects, academic work, and continuous self-learning. 
-                I’m passionate about creating clean, user-friendly interfaces and always eager to grow through 
-                real-world opportunities and collaboration.</p>
-        </div>
-        <div class="content">
-      <!-- FRONTEND CARD -->
-      <div class="card" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400">
-        <div class="service-icon"><i class="fas fa-laptop-code"></i></div>
-        <div class="info">
-          <h3>Frontend</h3>
-          <div class="skills-container">
-            <div class="skill-card">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="React">
-              <p>React</p>
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Get To Know Me</span>
+                <h2 class="heading">About <span>Me</span></h2>
             </div>
-            <div class="skill-card">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/8/8e/Nextjs-logo.svg" alt="Next.js">
-              <p>Next.js</p>
-            </div>
-            <div class="skill-card">
-              <img src="https://www.w3.org/html/logo/badge/html5-badge-h-solo.png" alt="HTML">
-              <p>HTML</p>
-            </div>
-            <div class="skill-card">
-              <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="CSS">
-              <p>CSS</p>
-            </div>
-            <div class="skill-card">
-              <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript">
-              <p>JavaScript</p>
-            </div>
-          </div>
-        </div>
-      </div>
 
-      <!-- BACKEND CARD -->
-      <div class="card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
-        <div class="service-icon"><i class="fas fa-server"></i></div>
-        <div class="info">
-          <h3>Backend</h3>
-          <div class="skills-container">
-            <div class="skill-card">
-              <img src="	https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java">
-              <p>Java</p>
-            </div>
-            <div class="skill-card">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Microsoft_.NET_logo.svg/1200px-Microsoft_.NET_logo.svg.png" alt=".Net">
-              <p>.Net</p>
-            </div>
-            <div class="skill-card">
-              <img src="	https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python">
-              <p>Python</p>
-            </div>
-            <div class="skill-card">
-              <img src="https://pngimg.com/uploads/php/php_PNG20.png" alt="PHP">
-              <p>php</p>
-            </div>
-          </div>
-        </div>
-      </div>
+            <div class="about-wrapper">
+                <div class="about-visual">
+                    <div class="about-image">
+                        <img src="images/profile.png" alt="Umadi Alanka">
+                        <div class="image-decoration">
+                            <div class="deco-circle circle-1"></div>
+                            <div class="deco-circle circle-2"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <div class="stat-icon">
+                                <i class="fas fa-project-diagram"></i>
+                            </div>
+                            <div class="stat-info">
+                                <h4>5+</h4>
+                                <p>Projects Completed</p>
+                            </div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon">
+                                <i class="fas fa-pencil-ruler"></i>
+                            </div>
+                            <div class="stat-info">
+                                <h4>Expert</h4>
+                                <p>In Figma Design</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-      <!-- DATABASE CARD -->
-      <div class="card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
-        <div class="service-icon"><i class="fas fa-database"></i></div>
-        <div class="info">
-          <h3>Database</h3>
-          <div class="skills-container">
-            <div class="skill-card">
-              <img src="https://upload.wikimedia.org/wikipedia/en/d/dd/MySQL_logo.svg" alt="my sql">
-              <p>MySql</p>
-            </div>
-          </div>
-        </div>
-      </div>
+                <div class="about-content">
+                    <h3>Creative UI/UX Designer & Frontend Developer</h3>
+                    <p class="highlight-text">
+                        I'm a 23-year-old passionate designer who believes that great design 
+                        is invisible – it just works. My approach combines aesthetics with 
+                        functionality to create experiences that users love.
+                    </p>
+                    <p>
+                        With a strong foundation in UI/UX principles and hands-on experience 
+                        with modern design tools, I've developed a keen eye for detail and a 
+                        deep understanding of user behavior. I don't just design interfaces; 
+                        I craft experiences that solve real problems.
+                    </p>
+                    
+                    <div class="expertise-highlights">
+                        <div class="highlight-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>User-Centered Design Approach</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Wireframing & Prototyping</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Frontend Implementation</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Responsive Design Expert</span>
+                        </div>
+                    </div>
 
-      <!-- OTHERS CARD -->
-      <div class="card" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400">
-        <div class="service-icon"><i class="fas fa-tools"></i></div>
-        <div class="info">
-          <h3>Others</h3>
-          <div class="skills-container">
-            <div class="skill-card">
-              <img src="	https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="git">
-              <p>Git</p>
-            </div>
-            <div class="skill-card">
-              <img src="https://images.seeklogo.com/logo-png/30/1/github-logo-png_seeklogo-304612.png" alt="git hub">
-              <p>Git Hub</p>
-            </div>
-            <div class="skill-card">
-              <img src="	https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="Vs code">
-              <p>VS code</p>
-            </div>
-            <div class="skill-card">
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" alt="Post man">
-              <p>Post man</p>
-            </div>
-            <div class="skill-card">
-              <img src="	https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="figma">
-              <p>Figma</p>
-            </div>
-            <div class="skill-card">
-              <img src="https://static.canva.com/web/images/8439b51bb7a19f6e65ce1064bc37c197.svg" alt="JavaScript">
-              <p>Canva</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-<!-- Portfolio section design -->
- <section class="portfolio" id="portfolio">
-    <h2 class="heading">Latest <span>project</span></h2>
-    <div class="portfolio-container">
-        <div class="portfolio-box">
-            <img src="images/sunsetlogo.jpg" alt="">
-            <div class="portfolio-layer">
-                <h4>Web Base System</h4>
-                <p><b>we create the Villa management sytem for Sun Set Escape Villa using PHP,JS,HTML,CSS And create UI in figma</b></p>
-                <a href="https://github.com/UmadiAlanka/Sunset_Escape_Villa_Management_System.git"><i class="fa-brands fa-github"></i></a>
-            </div>  
-        </div>
-        <div class="portfolio-box">
-            <img src="images/mycomart_logo.png" alt="">
-            <div class="portfolio-layer">
-                <h4>Role Base System</h4>
-                <p><b>Create MycoMart system using Next.Js,Java,React.And create user friendly UI in Figma</b></p>
-                <a href="https://github.com/UmadiAlanka/Mycomart_frontend.git"><i class="fa-brands fa-github"></i></a>
-                <a href="https://www.figma.com/proto/PNLDa55e3gmYMARhcA2Q36/MICORMART?node-id=101-256&starting-point-node-id=5%3A2&t=6zjbt6WABKmiBmZV-1"><i class="fa-brands fa-square-figma"></i></a>
+                    <div class="about-cta">
+                        <a href="#contact" class="btn btn-primary">Let's Connect</a>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="portfolio-box">
-            <img src="images/cafe.png" alt="">
-            <div class="portfolio-layer">
-                <h4>UI Design</h4>
-                <p><b>Designed a responsive café landing page using Figma, focusing on visual balance, usability, and brand feel.</b></p>
-                <a href="https://www.figma.com/design/aqc4mChD22MtQcu3GqOqdh/Cozy-Cup-Cafe?t=5ttCzPaRdj4yeDAr-1"><i class="fa-brands fa-square-figma"></i></a>
+    </section>
+
+    <!-- Expertise Section -->
+    <section class="expertise" id="expertise">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">What I Do Best</span>
+                <h2 class="heading">My <span>Expertise</span></h2>
+                <p class="section-description">
+                    Comprehensive design and development skills to bring your ideas to life
+                </p>
+            </div>
+
+            <div class="expertise-grid">
+                <!-- UI Design -->
+                <div class="expertise-card featured">
+                    <div class="card-header">
+                        <div class="expertise-icon">
+                            <i class="fas fa-palette"></i>
+                        </div>
+                        <h3>UI Design</h3>
+                    </div>
+                    <p>Creating visually stunning interfaces that capture attention and enhance user engagement through thoughtful color theory, typography, and layout design.</p>
+                    <div class="tools-used">
+                        <span class="tool-tag">Figma</span>
+                        <span class="tool-tag">Canva</span>
+                        <span class="tool-tag">Adobe XD</span>
+                    </div>
+                </div>
+
+                <!-- UX Design -->
+                <div class="expertise-card featured">
+                    <div class="card-header">
+                        <div class="expertise-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h3>UX Design</h3>
+                    </div>
+                    <p>Crafting intuitive user experiences through research, user flows, wireframes, and prototypes that prioritize usability and accessibility.</p>
+                    <div class="tools-used">
+                        <span class="tool-tag">User Research</span>
+                        <span class="tool-tag">Wireframing</span>
+                        <span class="tool-tag">Prototyping</span>
+                    </div>
+                </div>
+
+                <!-- Frontend Development -->
+                <div class="expertise-card">
+                    <div class="card-header">
+                        <div class="expertise-icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <h3>Frontend Development</h3>
+                    </div>
+                    <p>Bringing designs to life with clean, responsive code using modern frameworks and best practices for optimal performance.</p>
+                    <div class="tools-used">
+                        <span class="tool-tag">React</span>
+                        <span class="tool-tag">Next.js</span>
+                        <span class="tool-tag">HTML/CSS</span>
+                        <span class="tool-tag">JavaScript</span>
+                    </div>
+                </div>
+
+                <!-- Responsive Design -->
+                <div class="expertise-card">
+                    <div class="card-header">
+                        <div class="expertise-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h3>Responsive Design</h3>
+                    </div>
+                    <p>Ensuring seamless experiences across all devices with mobile-first design approach and adaptive layouts.</p>
+                    <div class="tools-used">
+                        <span class="tool-tag">Mobile First</span>
+                        <span class="tool-tag">Flexbox</span>
+                        <span class="tool-tag">Grid</span>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="portfolio-box">
-            <img src="images/TailMate.JPG" alt="">
-            <div class="portfolio-layer">
-                <h4>UI Design</h4>
-                <p><b>Designed a responsive Pet adaptation user-friendly app using Figma</b></p>
-                <a href="https://www.figma.com/proto/dc5UnWrleSJ1Djft2HeMU2/Pet-Adoption?node-id=2-2&starting-point-node-id=2%3A2&t=6DgpKBFWrFHIKOov-1"><i class="fa-brands fa-square-figma"></i></a>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">My Recent Work</span>
+                <h2 class="heading">Featured <span>Projects</span></h2>
+                <p class="section-description">
+                    A curated selection of design and development projects showcasing my approach to problem-solving
+                </p>
+            </div>
+
+            <div class="portfolio-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/mycomart_logo.png" alt="MycoMart System">
+                        <div class="project-overlay">
+                            <div class="overlay-content">
+                                <a href="https://github.com/UmadiAlanka/Mycomart_frontend.git" class="project-btn" target="_blank">
+                                    <i class="fa-brands fa-github"></i>
+                                    <span>View Code</span>
+                                </a>
+                                <a href="https://www.figma.com/proto/PNLDa55e3gmYMARhcA2Q36/MICORMART?node-id=101-256&starting-point-node-id=5%3A2&t=6zjbt6WABKmiBmZV-1" class="project-btn" target="_blank">
+                                    <i class="fa-brands fa-figma"></i>
+                                    <span>View Design</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span class="tag tag-primary">UI/UX Design</span>
+                            <span class="tag">Full Stack</span>
+                        </div>
+                        <h3>MycoMart E-Commerce Platform</h3>
+                        <p>Designed and developed a comprehensive role-based e-commerce system with focus on user experience and modern UI patterns.</p>
+                        <div class="project-tech">
+                            <span>Figma</span>
+                            <span>Next.js</span>
+                            <span>React</span>
+                            <span>Spring Boot</span>
+                            <span>MySQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/cafe.png" alt="Cozy Cup Cafe">
+                        <div class="project-overlay">
+                            <div class="overlay-content">
+                                <a href="https://www.figma.com/design/aqc4mChD22MtQcu3GqOqdh/Cozy-Cup-Cafe?t=5ttCzPaRdj4yeDAr-1" class="project-btn" target="_blank">
+                                    <i class="fa-brands fa-figma"></i>
+                                    <span>View Design</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span class="tag tag-primary">UI Design</span>
+                            <span class="tag">Landing Page</span>
+                        </div>
+                        <h3>Cozy Cup Café Landing Page</h3>
+                        <p>Responsive café landing page design emphasizing brand identity, visual balance, and conversion optimization.</p>
+                        <div class="project-tech">
+                            <span>Figma</span>
+                            <span>UI Design</span>
+                            <span>Branding</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/TailMate.JPG" alt="TailMate App">
+                        <div class="project-overlay">
+                            <div class="overlay-content">
+                                <a href="https://www.figma.com/proto/dc5UnWrleSJ1Djft2HeMU2/Pet-Adoption?node-id=2-2&starting-point-node-id=2%3A2&t=6DgpKBFWrFHIKOov-1" class="project-btn" target="_blank">
+                                    <i class="fa-brands fa-figma"></i>
+                                    <span>View Prototype</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span class="tag tag-primary">UX Design</span>
+                            <span class="tag">Mobile App</span>
+                        </div>
+                        <h3>TailMate Pet Adoption App</h3>
+                        <p>User-friendly mobile app design for pet adoption with intuitive navigation, engaging interface, and seamless user flow.</p>
+                        <div class="project-tech">
+                            <span>Figma</span>
+                            <span>Mobile UI</span>
+                            <span>Prototyping</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/sunsetlogo.jpg" alt="Sunset Escape Villa">
+                        <div class="project-overlay">
+                            <div class="overlay-content">
+                                <a href="https://github.com/UmadiAlanka/Sunset_Escape_Villa_Management_System.git" class="project-btn" target="_blank">
+                                    <i class="fa-brands fa-github"></i>
+                                    <span>View Code</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span class="tag tag-primary">UI Design</span>
+                            <span class="tag">Web System</span>
+                        </div>
+                        <h3>Sunset Escape Villa Management</h3>
+                        <p>Complete villa management system with custom UI design, featuring booking management and customer interactions.</p>
+                        <div class="project-tech">
+                            <span>Figma</span>
+                            <span>PHP</span>
+                            <span>JavaScript</span>
+                            <span>CSS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/dining.jpg" alt="Hotel Dining">
+                        <div class="project-overlay">
+                            <div class="overlay-content">
+                                <a href="https://github.com/UmadiAlanka/Hotel_Dining_WebPage.git" class="project-btn" target="_blank">
+                                    <i class="fa-brands fa-github"></i>
+                                    <span>View Code</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span class="tag tag-primary">Web Design</span>
+                            <span class="tag">Frontend</span>
+                        </div>
+                        <h3>Hotel Dining Webpage</h3>
+                        <p>Elegant dining webpage for hotels featuring modern design principles and responsive layout implementation.</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>Responsive</span>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="portfolio-box">
-            <img src="images/dining.jpg" alt="">
-            <div class="portfolio-layer">
-                <h4>Web Page Design</h4>
-                <p><b>Designed a Dinning Web Page For Hotel Using HTML & CSS</b></p>
-                <a href="https://github.com/UmadiAlanka/Hotel_Dining_WebPage.git"><i class="fa-brands fa-github"></i></a>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">My Capabilities</span>
+                <h2 class="heading">Skills & <span>Tools</span></h2>
+            </div>
+
+            <div class="skills-container">
+                <!-- Design Skills -->
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-pencil-ruler"></i>
+                        <h3>Design Skills</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">UI/UX Design</span>
+                                <span class="skill-level">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="width: 90%">
+                                    <span class="skill-shine"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Wireframing & Prototyping</span>
+                                <span class="skill-level">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="width: 90%">
+                                    <span class="skill-shine"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Web Design</span>
+                                <span class="skill-level">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="width: 90%">
+                                    <span class="skill-shine"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Responsive Design</span>
+                                <span class="skill-level">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="width: 85%">
+                                    <span class="skill-shine"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Usability Principles</span>
+                                <span class="skill-level">80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="width: 80%">
+                                    <span class="skill-shine"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Development Skills -->
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-code"></i>
+                        <h3>Development Skills</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">HTML & CSS</span>
+                                <span class="skill-level">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="width: 90%">
+                                    <span class="skill-shine"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">JavaScript</span>
+                                <span class="skill-level">70%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="width: 70%">
+                                    <span class="skill-shine"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">React & Next.js</span>
+                                <span class="skill-level">75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="width: 75%">
+                                    <span class="skill-shine"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Python</span>
+                                <span class="skill-level">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="width: 90%">
+                                    <span class="skill-shine"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Java</span>
+                                <span class="skill-level">80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="width: 80%">
+                                    <span class="skill-shine"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tools & Software -->
+            <div class="tools-section">
+                <h3 class="tools-title">Tools & Software I Use</h3>
+                <div class="tools-grid">
+                    <div class="tool-card">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="Figma">
+                        <span>Figma</span>
+                    </div>
+                    
+                    <div class="tool-card">
+                        <img src="https://static.canva.com/web/images/8439b51bb7a19f6e65ce1064bc37c197.svg" alt="Canva">
+                        <span>Canva</span>
+                    </div>
+                    <div class="tool-card">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VS Code">
+                        <span>VS Code</span>
+                    </div>
+                    
+                    <div class="tool-card">
+                        <img src="https://images.seeklogo.com/logo-png/30/1/github-logo-png_seeklogo-304612.png" alt="GitHub">
+                        <span>GitHub</span>
+                    </div>
+
+                    <div class="tool-card">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" alt="Post man">
+                        <span>Post man</span>
+                    </div>
+                    <div class="tool-card">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/2/20/Visual_Studio_Icon_2026.svg" alt="Visual Studio">
+                        <span>Visual Studio</span>
+                    </div>
+
+                    <div class="tool-card">
+                        <img src="https://store-images.s-microsoft.com/image/apps.1409.13851527096222888.2b60149a-04a5-4578-a6b2-d7b7377332d5.c22d8e97-4d44-4304-9bd2-55f9d29c0f82" alt="drow.io">
+                        <span>drow.io</span>
+                    </div>
+
+                    <div class="tool-card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6igICtVGvKITyZ3DLNEfG744amTM5WPhDkw&s" alt="Slack">
+                        <span>Slack</span>
+                    </div>
+                    
+                </div>
             </div>
         </div>
-    </div>
- </section>
- <!-- skills section design -->
-<section class="skills" id="skills">
-  <h2 class="heading">My <span>Skills</span></h2>
+    </section>
 
-  <div class="skills-row">
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Let's Work Together</span>
+                <h2 class="heading">Get In <span>Touch</span></h2>
+                <p class="section-description">
+                    Have a project in mind? I'd love to hear about it. Let's create something amazing together.
+                </p>
+            </div>
 
-    <!-- Left side -->
-    <div class="skills-column">
-      <h3 class="title">Coding Skills</h3>
+            <div class="contact-content">
+                <div class="contact-info-cards">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h4>Email</h4>
+                        <p>umadialankam@gmail.com</p>
+                        <a href="mailto:umadialankam@gmail.com" class="contact-link">Send Email</a>
+                    </div>
 
-      <div class="skills-box">
-        <div class="skills-content">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <h4>Phone</h4>
+                        <p>+94 71 920 2241</p>
+                        <a href="tel:+94719202241" class="contact-link">Call Now</a>
+                    </div>
 
-          <div class="progress">
-            <h3>HTML <span>90%</span></h3>
-            <div class="bar"><span style="width:90%"></span></div>
-          </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <h4>Location</h4>
+                        <p>Battaramulla, Sri Lanka</p>
+                        <a href="#" class="contact-link">View Map</a>
+                    </div>
+                </div>
 
-          <div class="progress">
-            <h3>CSS <span>90%</span></h3>
-            <div class="bar"><span style="width:90%"></span></div>
-          </div>
+                <form class="contact-form" onsubmit="sendMail(event); return false;">
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" placeholder="Alanka Munasinghe" required>
+                        </div>
 
-          <div class="progress">
-            <h3>C++ <span>50%</span></h3>
-            <div class="bar"><span style="width:50%"></span></div>
-          </div>
+                        <div class="form-group">
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email" placeholder="john@example.com" required>
+                        </div>
 
-          <div class="progress">
-            <h3>Java <span>80%</span></h3>
-            <div class="bar"><span style="width:80%"></span></div>
-          </div>
+                        <div class="form-group">
+                            <label for="number">Phone Number</label>
+                            <input type="text" id="number" placeholder="+94 XX XXX XXXX" required>
+                        </div>
 
-          <div class="progress">
-            <h3>JavaScript <span>70%</span></h3>
-            <div class="bar"><span style="width:70%"></span></div>
-          </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" placeholder="Project Discussion" required>
+                        </div>
+                    </div>
 
-          <div class="progress">
-            <h3>Python <span>90%</span></h3>
-            <div class="bar"><span style="width:90%"></span></div>
-          </div>
+                    <div class="form-group full-width">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" rows="6" placeholder="Tell me about your project..." required></textarea>
+                    </div>
 
-          <div class="progress">
-            <h3>PHP <span>70%</span></h3>
-            <div class="bar"><span style="width:70%"></span></div>
-          </div>
-
+                    <button type="submit" class="btn btn-primary btn-submit">
+                        <span>Send Message</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
         </div>
-      </div>
-    </div>
+    </section>
 
-    <!-- Right side -->
-    <div class="skills-column">
-      <h3 class="title">Professional Skills</h3>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Umadi Alanka</h3>
+                    <p>UI/UX Designer crafting beautiful digital experiences</p>
+                </div>
 
-      <div class="skills-box">
-        <div class="skills-content">
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#portfolio">Portfolio</a>
+                    <a href="#contact">Contact</a>
+                </div>
 
-          <div class="progress">
-            <h3>Web Design <span>90%</span></h3>
-            <div class="bar"><span style="width:90%"></span></div>
-          </div>
+                <div class="footer-social">
+                    <h4>Connect</h4>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/umadi-alanka-m-8b3b3a304" aria-label="LinkedIn">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/UmadiAlanka" aria-label="GitHub">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="https://www.facebook.com/share/1Pa1NxawDS/?mibextid=wwXIfr" aria-label="Facebook">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
 
-          <div class="progress">
-            <h3>Web Development <span>90%</span></h3>
-            <div class="bar"><span style="width:90%"></span></div>
-          </div>
-
-          <div class="progress">
-            <h3>UI/UX Design <span>90%</span></h3>
-            <div class="bar"><span style="width:90%"></span></div>
-          </div>
-
-          <div class="progress">
-            <h3>Wireframing and prototyping<span>80%</span></h3>
-            <div class="bar"><span style="width:90%"></span></div>
-          </div>
-
-          <div class="progress">
-            <h3>Testing and debugging<span>70%</span></h3>
-            <div class="bar"><span style="width:70%"></span></div>
-          </div>
-
-          <div class="progress">
-            <h3>Basic usability principles<span>60%</span></h3>
-            <div class="bar"><span style="width:60%"></span></div>
-          </div>
-
+            <div class="footer-bottom">
+                <p>&copy; 2025 Umadi Alanka. All Rights Reserved.</p>
+                <a href="#home" class="back-to-top">
+                    <i class="fas fa-arrow-up"></i>
+                </a>
+            </div>
         </div>
-      </div>
-    </div>
+    </footer>
 
-  </div>
-</section>
-<!-- contact section design -->
- <section class="contact" id="contact">
-  <h2 class="heading">Contact <span>Me!</span></h2>
-<form onsubmit="sendMail(event); return false;">
-    <div class="input-box">
-      <div class="input-field">
-        <input type="text" placeholder="Full Name" id="name" required>
-      </div>
-
-      <div class="input-field">
-        <input type="email" placeholder="Email Address" id="email" required>
-      </div>
-
-      <div class="input-field">
-        <input type="text" placeholder="Mobile Number" id="number" required>
-      </div>
-
-      <div class="input-field">
-        <input type="text" placeholder="Email Subject" id="subject" required>
-      </div>
-    </div>
-
-    <div class="textarea-field">
-        <textarea id="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
-    </div>
-
-    <div class="btn-box btns">
-        <button type="submit" class="btn">Submit</button>
-    </div>
-</form>
-
-
-</section>
-<!-- footer design -->
- <div class="footer">
-  <div class="footer-text">
-    <p>Copyright &copy; 2025 by Umadi Alanaka | All  Rights Reserved</p>
-  </div>
-  <div class="footer-iconTop">
-    <a href="#"><i class="fa-solid fa-up-long"></i></a>
-  </div>
- </div>
-     <script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
