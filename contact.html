@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Contact - Portfolio</title>
+  <link rel="stylesheet" href="assets/css/contact.css">
+</head>
+<body>
+  <main class="contact-container">
+    <h1>Contact Me</h1>
+    <p>Use the form below to send a message.</p>
+
+    <!-- Replace YOUR_FORMSPREE_ID with your Formspree form id (e.g. https://formspree.io/f/abcd1234) -->
+    <form id="contact-form" action="https://formspree.io/f/YOUR_FORMSPREE_ID" method="POST">
+      <label for="name">Name</label>
+      <input id="name" name="name" type="text" required>
+
+      <label for="email">Email</label>
+      <input id="email" name="email" type="email" required>
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="6" required></textarea>
+
+      <button type="submit">Send Message</button>
+
+      <div id="form-status" role="status" aria-live="polite"></div>
+    </form>
+
+    <p class="note">If you don't want to use Formspree, the form will fall back to opening the user's email client via the mail link below; otherwise replace the form action with your Formspree endpoint.</p>
+
+    <p>Mail: <a href="mailto:your@example.com">your@example.com</a></p>
+  </main>
+
+  <script src="assets/js/contact.js"></script>
+</body>
+</html>
