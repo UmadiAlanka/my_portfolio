@@ -1,2 +1,2 @@
-/* Restore the original portfolio stylesheet from before the design updates. */
-@import url("https://raw.githubusercontent.com/UmadiAlanka/my_portfolio/ebcb4d0b1ddd4aa273b4633f3477f8e7b01680c7/style.css");
+/* Original portfolio stylesheet, pinned to the repository's pre-redesign commit. */
+@import url("https://cdn.jsdelivr.net/gh/UmadiAlanka/my_portfolio@ebcb4d0b1ddd4aa273b4633f3477f8e7b01680c7/style.css");
